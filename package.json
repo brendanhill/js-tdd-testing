@@ -1,0 +1,42 @@
+{
+  "name": "test_drivin_design",
+  "description": "just playing around",
+  "version": "0.1.0",
+  "homepage": "https://github.com/brendanhill/js-tdd-testing",
+  "author": {
+    "name": "Brendan Hill",
+    "email": "brendan@brendanhill.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brendanhill/js-tdd-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brendanhill/js-tdd-testing/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brendanhill/js-tdd-testing/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "connect": "1.8.5",
+    "express": "2.5.2",
+    "jade": "0.20.0",
+    "mongoose": "2.4.8",
+    "socket.io": "0.8.7",
+    "grunt-ember-handlebars": "0.1.4"
+  },
+  "main": "lib/app",
+  "engines": {
+    "node": "0.8.9"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": []
+}
