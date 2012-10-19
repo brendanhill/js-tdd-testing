@@ -1,2 +1,2 @@
-test/node-jscoverage/
+test/node-jscoverage/*
 /node_modules/*
